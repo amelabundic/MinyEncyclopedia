@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+}
+
+code {
+    white-space: pre;
+    background-color: #f8f8f8;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    color: #007bff;
+}
+
+textarea {
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    position: fixed;
+    overflow-y: auto;
+    flex: 0 0 250px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+    color: #007bff;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #e0e0e0;
+}
+
+.main {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#create-page-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#random-page-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#create-page-btn:hover, #random-page-btn:hover {
+    opacity: 0.9;
+}
+
+.search {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.error-container, .random-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.error-container h1, .random-container h1 {
+    color: #dc3545;
+}
+
+textarea {
+    height: 200px;
+    overflow-y: auto; 
+}
+
+
+
+

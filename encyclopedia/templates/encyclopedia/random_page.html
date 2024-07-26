@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}
+Random Page
+{% endblock %}
+
+{% block body %}
+<div class="random-container">
+    <h1>Random Page</h1>
+    <p><a href="{% url 'entry_page' title=random_title %}">Random Article: {{ random_title }}</a></p>
+</div>
+{% endblock %}
+

@@ -1,0 +1,6 @@
+from django.utils.module_loading import autodiscover_modules
+
+default_app_config = 'encyclopedia.apps.EncyclopediaConfig'
+
+def ready(self):
+    autodiscover_modules('templatetags')

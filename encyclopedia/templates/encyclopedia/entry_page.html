@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+{% load markdown_extras %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block body %}
+<div class="entry-content">
+  {{ content|markdown }}
+</div>
+
+<div>
+    <a href="{% url 'edit_page' title=title %}">Edit Page</a>
+</div>
+{% endblock %}
+
